@@ -1,0 +1,226 @@
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            font-size: 16px;
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            line-height: 1.8em;
+            color: #666;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("2ldki.jpg");
+
+            /* Set a specific height */
+            min-height: 600px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .bc {
+            background-image: url("pc.jpg");
+
+            /* Set a specific height */
+            min-height: 700px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .cc {
+            background-image: url("building.jpg");
+
+            /* Set a specific height */
+            min-height: 700px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .dc {
+            background-image: url("2ldki.jpg");
+
+            /* Set a specific height */
+            min-height: 700px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .ptext {
+            position: absolute;
+            top: 40%;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(48, 225, 231);
+            font-size: 47px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        .ptext .border {
+            background-color: rgb(20, 126, 224);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .ptext .border:hover {
+            background-color: #fff;
+            color: rgb(20, 126, 224);
+            padding: 25px;
+
+        }
+
+
+
+        .col {
+            background-color: rgba(127, 225, 255, 0.548);
+            width: 100%;
+        }
+
+        .ptext .border.trans {
+            background-color: transparent;
+        }
+
+        .pstext {
+            /*2 line*/
+            background-color: rgb(16, 123, 165);
+            color: #fff;
+            padding: 5px;
+            position: absolute;
+            top: 170%;
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 4px;
+
+        }
+
+        /* .pstext:hover{
+            color: rgb(16, 123, 165);
+            background-color: #fff;
+        } */
+
+        .ac {
+            background-color: rgb(16, 123, 165);
+            color: #fff;
+            padding: 5px;
+            position: absolute;
+            top: 80%;
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 4px;
+        }
+
+        /* .ac:hover{
+             background-color: #fff;
+             color: rgb(16, 123, 165);
+
+         } */
+
+        .last {
+            background-color: rgb(16, 123, 165);
+            color: #fff;
+            padding: 5px;
+            position: absolute;
+            top: 270%;
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            letter-spacing: 4px;
+
+
+        }
+
+        .ana {
+            position: absolute;
+            top: 320%;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            color: rgb(24, 245, 98);
+            font-size: 47px;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+        }
+
+        .pan {
+            background-color: rgb(74, 224, 28);
+            color: #fff;
+            padding: 20px;
+        }
+
+        .ana .pan:hover {
+            background-color: aquamarine;
+            color: brown;
+            padding: 23px;
+        }
+
+        .dp {
+            padding: 5px;
+            position: absolute;
+            top: 135%;
+            width: 100%;
+            text-align: center;
+            font-weight: 400;
+            color: blanchedalmond;
+            font-size: 47px;
+        }
+        footer{
+            position: absolute;
+            top: 360%;
+            width: 100%;
+            text-align: center;
+            background-color: rgb(17, 144, 202);
+            color: white;
+            padding: 10px;
+            
+            
+        }
+        
+
+        @media(max-width:568px) {
+
+            .parallax,
+            .bc,
+            .cc,
+            .dc {
+                background-attachment: scroll;
+            }
+
+            .border {
+                padding: 5px;
+                letter-spacing: 1px;
+            }
+
+            .dp {
+                top: 155%;
+            }
+
+            .last {
+                top: 270%;
+            }
+
+            .ana {
+                top: 350%;
+            }
+        }
+    
